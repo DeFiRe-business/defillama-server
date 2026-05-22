@@ -4022,10 +4022,10 @@ const data6: Protocol[] = [
     name: "SwapWizard",
     address: null,
     symbol: "-",
-    url: " ", // pending to add url https://swapwizard.xyz/
+    url: "https://swapwizard.xyz",
     description:
       "Multi-chain DEX aggregator and auto zap. Add or remove liquidity in a single transaction, using any token or several as you prefer. SwapWizard handles the proportions, the required swaps along the best available routes, and the residual dust. No manual swaps, no multiple approvals, no leftovers forgotten in your wallet.",
-    chain: "Ethereum",
+    chain: "Multi-Chain",
     logo: `${baseIconsUrl}/swapwizard.png`,
     audits: "2",
     audit_links: ["https://swapwizard.xyz/SwapWizard_Security_Audit_Report.pdf"],
@@ -4035,6 +4035,7 @@ const data6: Protocol[] = [
     chains: ["Ethereum", "Binance", "Arbitrum", "Base", "Polygon"],
     module: "dummy.js",
     twitter: "SwapWizard",
+    github: ["DeFiRe-business"],
     dimensions: {
       aggregators: "swapwizard"
     },
