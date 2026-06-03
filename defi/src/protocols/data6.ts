@@ -4022,7 +4022,7 @@ const data6: Protocol[] = [
     name: "SwapWizard",
     address: null,
     symbol: "-",
-    url: "https://swapwizard.xyz",
+    url: " ", // pending to add url https://swapwizard.xyz/
     description:
       "Multi-chain DEX aggregator and auto zap. Add or remove liquidity in a single transaction, using any token or several as you prefer. SwapWizard handles the proportions, the required swaps along the best available routes, and the residual dust. No manual swaps, no multiple approvals, no leftovers forgotten in your wallet.",
     chain: "Ethereum",
